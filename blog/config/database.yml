@@ -1,0 +1,11 @@
+settings: &settings
+  adapter: mysql
+  username: ogc
+  password: "ogcpass"
+  encoding: utf8
+  host: localhost
+
+development:
+  database: doris_weblog
+  <<: *settings
+
